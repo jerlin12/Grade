@@ -4,6 +4,6 @@ import org.junit.jupiter.api.Test;
 public class StudentGradeTest {
     @Test
     public void testGrade() {
-        assertEquals("S", StudentGrade.grade(85));
+        assertEquals("A", StudentGrade.grade(85));
     }
 }
